@@ -641,6 +641,7 @@
             height: 200%;
             background: radial-gradient(circle, rgba(0, 168, 224, 0.12) 0%, transparent 50%);
             animation: rotate 20s linear infinite;
+            pointer-events: none;
         }
 
         @keyframes rotate {
@@ -880,17 +881,21 @@
             nav .container {
                 gap: 8px;
             }
+
             .logo {
                 gap: 5px;
             }
+
             .logo img {
                 height: 40px;
             }
+
             .logo-center span {
                 font-size: 13px;
                 line-height: 1.2;
                 display: inline-block;
             }
+
             section {
                 padding: 20px 0;
             }
@@ -932,7 +937,11 @@
 
 <body>
     <div class="video-bg">
-        <iframe src="https://www.youtube.com/embed/0Xlmsgfi_ik?autoplay=1&mute=1&loop=1&playlist=0Xlmsgfi_ik&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+            src="https://www.youtube.com/embed/0Xlmsgfi_ik?autoplay=1&mute=1&loop=1&playlist=0Xlmsgfi_ik&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
     <div class="video-overlay"></div>
 
@@ -1025,7 +1034,11 @@
 
     <section class="video-section">
         <div class="video-container" id="video2-container">
-            <iframe src="https://www.youtube.com/embed/pBs3vUlu950?autoplay=1&mute=1&loop=1&playlist=pBs3vUlu950&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+                src="https://www.youtube.com/embed/pBs3vUlu950?autoplay=1&mute=1&loop=1&playlist=pBs3vUlu950&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </section>
 
